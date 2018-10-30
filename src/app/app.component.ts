@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+  mainMenuItems = {
+    totalItems: 3,
+    items: ["home","login", "logout"]
+  }
 }

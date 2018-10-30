@@ -1,0 +1,15 @@
+<div>
+<h3> Ex3 : 2 way communication from view to model</h3>
+
+
+<div *ngIf="!isLoggedIn">
+  <label for="">Username</label>
+  <input type="text" [(ngModel)]="Username">
+  <br>
+  <label for="">Password </label>
+  <input type="text" name="Password" placeholder="Enter Password">
+</div>
+<button *ngIf="!isLoggedIn" (click)="showAlertFn()">LOGIN </button>
+
+<button *ngIf="isLoggedIn" (click)="showAlertFn()">LOGOUT </button>
+</div>
