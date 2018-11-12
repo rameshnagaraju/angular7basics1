@@ -1,4 +1,4 @@
-# MyApp
+# componentCommunication
 1.components are the building blocks in Angular.
 2.One of the first things we have to learn in Angular is how do components talk to each other.
 3. First we create a component that accepts an fixed input, and prints it out.(A component that just prints "hello world" .)
